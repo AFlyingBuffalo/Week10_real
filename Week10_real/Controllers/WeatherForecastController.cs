@@ -18,11 +18,11 @@ namespace Week10_real.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetMyName")]
+  /*      [HttpGet(Name = "GetMyName")]
         public IActionResult GetMyName()
         {
-            var myName = new { Name = "Nick Bernloehr" };
+            var myName = new { Name = "Nick Bernloehr v2" };
             return Ok(myName);
-        }
+        }*/
     }
 }
